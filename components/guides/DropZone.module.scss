@@ -1,0 +1,10 @@
+.dropZone {
+  box-shadow: 0 0 0 1.8px var(--green-8);
+
+  background-color: var(--green-a2);
+
+  position: fixed;
+  z-index: 1000;
+
+  pointer-events: none;
+}
