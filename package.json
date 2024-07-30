@@ -10,21 +10,18 @@
   },
   "dependencies": {
     "@radix-ui/themes": "^3.1.1",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "babel-plugin-react-compiler": "^0.0.0-experimental-334f00b-20240725",
-    "next": "^15.0.0-rc.0",
-    "react": "^19.0.0-rc-14a4699f-20240725",
-    "react-dom": "^19.0.0-rc-14a4699f-20240725"
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "20.14.12",
-    "@types/react": "npm:types-react@rc",
-    "@types/react-dom": "npm:types-react-dom@rc",
     "eslint": "^8",
-    "eslint-config-next": "^15.0.0-rc.0",
+    "eslint-config-next": "^14.2.5",
     "typescript": "^5"
-  },
-  "overrides": {
-    "@types/react": "npm:types-react@rc",
-    "@types/react-dom": "npm:types-react-dom@rc"
   }
 }
